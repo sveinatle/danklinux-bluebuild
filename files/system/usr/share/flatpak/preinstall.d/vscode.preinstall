@@ -1,0 +1,3 @@
+[Flatpak Preinstall com.visualstudio.code]
+Branch=stable
+IsRuntime=false

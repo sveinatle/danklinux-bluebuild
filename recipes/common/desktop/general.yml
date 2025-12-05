@@ -12,6 +12,7 @@ modules:
     install:
       packages:
         - kitty
+        - fish
         - cryfs
         - ghostty
         - sxiv

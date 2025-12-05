@@ -3,7 +3,7 @@
 name: danklinux-nvidia-dx
 description: Hec's personal Fedora Atomic Desktop image, built with AvengeMedia's Dank Linux as its desktop.
 
-base-image: ghcr.io/hecknt/danklinux-nvidia
+base-image: ghcr.io/sveinatle/danklinux-nvidia
 image-version: 43
 
 modules:

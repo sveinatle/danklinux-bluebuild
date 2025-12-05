@@ -13,6 +13,7 @@ modules:
       packages:
         - kitty
         - fish
+        - input-remapper
         - cryfs
         - ghostty
         - sxiv

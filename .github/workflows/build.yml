@@ -26,9 +26,9 @@ jobs:
       fail-fast: false # stop GH from cancelling all matrix builds if one fails
       matrix:
         recipe:
-          - images/danklinux.yml
+          #- images/danklinux.yml
           - images/danklinux-nvidia.yml
-          - images/danklinux-kernel-cachyos.yml
+          #- images/danklinux-kernel-cachyos.yml
     steps:
       - name: Mount BTRFS for podman storage
         id: container-storage-action
@@ -60,9 +60,9 @@ jobs:
       fail-fast: false # stop GH from cancelling all matrix builds if one fails
       matrix:
         recipe:
-          - images/danklinux-dx.yml
+          #- images/danklinux-dx.yml
           - images/danklinux-nvidia-dx.yml
-          - images/danklinux-kernel-cachyos-dx.yml
+          #- images/danklinux-kernel-cachyos-dx.yml
     steps:
       - name: Mount BTRFS for podman storage
         id: container-storage-action
